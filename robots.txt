@@ -18,5 +18,5 @@ Disallow: /fonts/
 Disallow: /images/
 Disallow: /js/
 
-Host: sozdanie-sajta-seo.github.io
-Sitemap: https://sozdanie-sajta-seo.github.io/sitemap.xml
+Host: sozdanie-sajta.github.io
+Sitemap: https://sozdanie-sajta.github.io/sitemap.xml
