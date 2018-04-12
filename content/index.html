@@ -1,0 +1,137 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Tour snap a Travel Category Bootstrap Responsive Web Template | Home :: w3layouts</title>
+
+	<!--meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
+	<!--//meta tags ends here-->
+
+	<!--booststrap-->
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<!--//booststrap end-->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- gallery-Swipe-box -->
+<link rel="stylesheet" href="css/swipebox.css">
+<!-- //gallery-Swipe-box -->
+    <!-- flexSlider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<!-- //flexSlider -->
+	<!--stylesheets-->
+	<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+	<!--//stylesheets-->
+	<link href="//fonts.googleapis.com/css?family=Saira+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--//TEXT-->
+<div class="w3-about-us" id="about">
+	<div class="container">
+		<div class="w3-headings-all">
+			<h3>Welcome</h3>
+		</div>
+		<div class="w3-about-text">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien diam, ornare a eros a, mollis facilisis erat. Sed gravida turpis lorem, id gravida erat dictum et.Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed sapien diam, ornare a eros a, mollis facilisis erat.</p>
+		</div>
+		
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58811ee4ee2272e3"></script>
+
+
+	<!--js working-->
+	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- //js  working-->
+		<!-- banner-->
+<script src="js/responsiveslides.min.js"></script>
+		<script>
+				$(function () {
+					$("#slider").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: true,
+						speed: 1000,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});
+				});
+			</script>
+<!--// banner-->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+				<!-- //flexSlider -->
+<!-- script-for-swipebox -->
+	<script src="js/jquery.swipebox.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+<!-- //script-for-swipebox -->
+
+<!-- start-smoth-scrolling -->
+				<script type="text/javascript" src="js/move-top.js"></script>
+				<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+				</script>
+		<!-- start-smoth-scrolling -->
+		<!-- smooth scrolling-bottom-to-top -->
+				<script type="text/javascript">
+					$(document).ready(function() {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear'
+						};
+					*/
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					});
+				</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				<script src="js/SmoothScroll.min.js"></script>
+
+		<!-- //smooth scrolling-bottom-to-top -->
+
+</body>
+
+</html>
